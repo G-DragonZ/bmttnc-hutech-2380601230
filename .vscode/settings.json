@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd c:\\\\HUTECH\\\\bmttnc-hutech-2380601230\\\\lab_01\\\\ex04 ; python Main\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

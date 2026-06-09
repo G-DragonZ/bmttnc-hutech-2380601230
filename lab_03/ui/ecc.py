@@ -35,9 +35,9 @@ class Ui_MainWindow(object):
         self.btn_sign = QtWidgets.QPushButton(self.centralwidget)
         self.btn_sign.setGeometry(QtCore.QRect(200, 340, 75, 23))
         self.btn_sign.setObjectName("btn_sign")
-        self.btn_vertify = QtWidgets.QPushButton(self.centralwidget)
-        self.btn_vertify.setGeometry(QtCore.QRect(630, 350, 75, 23))
-        self.btn_vertify.setObjectName("btn_vertify")
+        self.btn_verify = QtWidgets.QPushButton(self.centralwidget)
+        self.btn_verify.setGeometry(QtCore.QRect(630, 350, 75, 23))
+        self.btn_verify.setObjectName("btn_verify")
         self.txt_info = QtWidgets.QTextEdit(self.centralwidget)
         self.txt_info.setGeometry(QtCore.QRect(140, 70, 601, 81))
         self.txt_info.setObjectName("txt_info")
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "INFO"))
         self.label_4.setText(_translate("MainWindow", "SIGNATURE"))
         self.btn_sign.setText(_translate("MainWindow", "SIGN"))
-        self.btn_vertify.setText(_translate("MainWindow", "VERTIFY"))
+        self.btn_verify.setText(_translate("MainWindow", "VERIFY"))
         self.btn_gen_keys.setText(_translate("MainWindow", "GEN KEY"))
 
 
